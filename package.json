@@ -7,8 +7,13 @@
     "concurrently": "^5.1.0",
     "dot-env": "^0.0.1",
     "express": "^4.17.1",
+    "express-winston": "^4.0.5",
     "if-env": "^1.0.4",
-    "nice-try": "^2.0.1"
+    "nice-try": "^2.0.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.5",
+    "winston": "^3.3.3"
   },
   "devDependencies": {},
   "scripts": {
