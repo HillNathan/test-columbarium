@@ -1,12 +1,12 @@
 // include any additional middleware declarations up here:
 // i.e.
-// const API = require("../controller");
+const API = require("../controller");
 
 module.exports = app => {
 
     // Starting route to confirm everything is set up to run through express
     app.get('/express_backend', (req, res) => {
-        res.send({ express: 'YOUR EXPRESS BACKEND NOT BROKEN BY LINKING TO THE mySQL DB!!!' });
+        res.send({ express: 'YOUR EXPRESS BACKEND NOT BROKEN BY ADDING THE CONTROLLER!!!' });
       });
 
 }
