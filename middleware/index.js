@@ -1,5 +1,5 @@
 module.exports = {
     logger: require("./winston"),
     passport: require("./passport"),
-    // session: require("express-session"),
+    session: require("express-session"),
 }
