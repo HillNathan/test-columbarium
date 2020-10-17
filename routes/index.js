@@ -3,14 +3,15 @@ const middleware = require("../middleware")
 const passport = middleware.passport
 const formidable = require('formidable')
 
+// bring in my database controller here
 const API = require("../controller");
 
-
+// declare my routes and send them back to the server-config module
 module.exports = app => {
 
   // Starting route to confirm everything is set up to run through express
   app.get('/express_backend', (req, res) => {
-      res.send({ express: 'YOUR EXPRESS BACKEND NOT BROKEN BY ADDING THE FULL ROUTER!!!' });
+      res.send({ express: 'Added full state, axios, functions, and componentDidMount function call...' });
     });
 
 //=====================================================================================================
