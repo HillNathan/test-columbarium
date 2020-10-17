@@ -6,7 +6,7 @@ module.exports = app => {
 
     // Starting route to confirm everything is set up to run through express
     app.get('/express_backend', (req, res) => {
-        res.send({ express: 'YOUR EXPRESS BACKEND NOT BROKEN BY SESSION!!!' });
+        res.send({ express: 'YOUR EXPRESS BACKEND NOT BROKEN BY LINKING TO THE mySQL DB!!!' });
       });
 
 }

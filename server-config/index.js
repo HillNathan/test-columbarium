@@ -1,5 +1,3 @@
-// require("dotenv").config();
-
 // SET EXPRESS ENVIRONMENT
 const express = require("express");
 const app = express();
@@ -20,7 +18,6 @@ app.use(
 );
 app.use(middleware.passport.initialize());
 app.use(middleware.passport.session());
-
 
 // check to see if we are using the production version of the app
 if (process.env.NODE_ENV === "production") {
