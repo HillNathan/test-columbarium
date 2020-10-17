@@ -1,0 +1,8 @@
+.link-lookalike { 
+    cursor: pointer;
+}
+
+.link-lookalike:hover { 
+    color: lightseagreen;
+    text-decoration: underline;
+}

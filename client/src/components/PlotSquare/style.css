@@ -1,0 +1,146 @@
+.plot {
+    height: 98px;
+    width: 98px;
+    margin: 3px;
+    float: left;
+    background-color: green;
+}
+
+.box-1 {
+    padding-top: 40px;
+}
+
+.box-2 {
+    padding-top: 23px;
+}
+
+.box-3 {
+    padding-top: 5px;
+}
+
+.text-box{
+    height: 102px;
+    width: 102px;
+    /* margin: 4px; */
+    text-align: center;
+    line-height: 14pt;
+    font-size: 12pt;
+    cursor: move;
+    border: solid 4px #46ac10;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.plot-text {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-normal { 
+    font-size: 12pt;
+}
+
+.text-small { 
+    font-size: 10pt;
+}
+
+.text-ex-small {
+    font-size: 9pt;
+}
+
+.plot-link {
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.plot-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.available {
+    background-color: #E4B7B2;
+}
+
+.pending {
+    background-color: #307D8D;
+}
+
+.on-hold {
+    background-color: #307D8D;
+}
+
+.reserved {
+    background-color: #307D8D;
+}
+
+.occupied { 
+    background-color: lightgrey;
+    background-image: url('../../images/light-slate.png');
+}
+
+.tree {
+    background-color: green;
+    background-image: url('../../images/tree.png');
+}
+
+.flowers {
+    background-color: lightpink;
+    background-image: url('../../images/flowers.png');
+}
+
+.drain { 
+    background-color: slategrey;
+    background-image: url('../../images/dark-slate.png');
+}
+
+.wall {
+    background-color: orange;
+    background-image: url('../../images/wall.png')
+}
+
+.cross {
+    background-color: slateblue;
+}
+
+.stairs {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.bench {
+    background-color: slategrey;
+}
+
+.slate-available { 
+    background-color: slategrey;
+    background-image: url('../../images/dark-slate.png');
+}
+
+.slate-reserved { 
+    background-color: slategrey;
+    background-image: url('../../images/dark-slate.png');
+}
+
+.slate-occupied {
+    background-color: rgb(42, 54, 66);
+    background-image: url('../../images/dark-slate.png');
+    color: whitesmoke;
+}
+
+.cross-tr {
+    background-image: url('../../images/cross_TR.png');
+}
+
+.cross-tl {
+    background-image: url('../../images/cross_TL.png');
+}
+
+.cross-br {
+    background-image: url('../../images/cross_BR.png');
+}
+
+.cross-bl {
+    background-image: url('../../images/cross_BL.png');
+}

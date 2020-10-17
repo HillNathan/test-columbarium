@@ -11,7 +11,7 @@ module.exports = app => {
 
   // Starting route to confirm everything is set up to run through express
   app.get('/express_backend', (req, res) => {
-      res.send({ express: 'Added main component (without plotmap) as well as some support components...' });
+      res.send({ express: 'Added all support components...' });
     });
 
 //=====================================================================================================
