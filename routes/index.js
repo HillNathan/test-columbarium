@@ -11,7 +11,7 @@ module.exports = app => {
 
   // Starting route to confirm everything is set up to run through express
   app.get('/express_backend', (req, res) => {
-      res.send({ express: 'Added admin and login page components...' });
+      res.send({ express: 'Added admin and login page components, as well as all App.js functions...' });
     });
 
 //=====================================================================================================
