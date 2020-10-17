@@ -3,9 +3,11 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect
+  // Redirect
 } from "react-router-dom";
-import Main from './components/Main'
+
+
+import Main from './pages/Main'
 import PageOne from './components/PageOne'
 import PageTwo from './components/PageTwo'
 import logo from './logo.svg';
@@ -21,6 +23,8 @@ const API = require('./functions')
 //   clear it out when we're done displaying it in the Dialog box. 
 const emptyInfo = { id: 0, plot: 0, status: "", reservedBy: "", certificate: 0, reservedDate: "",
   numInterred: 0, notes: "", picture: "", interred: [] }
+
+console.log(emptyInfo)
 
 class App extends Component {
   state = {    
@@ -161,17 +165,12 @@ class App extends Component {
 
   render() {
     return (
-      <Router><Switch>
-        <Route exact path="/">
-          <div className="App">
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <Main/>
-            </header>
-            <p className="App-intro">{this.state.data}</p>
-          </div> 
-           </Route>
-           <Route exact path="/pageone">
+      <div>
+        <Router><Switch>
+          <Route exact path="/">
+                <Main/>
+          </Route>
+          <Route exact path="/pageone">
           <div className="App">
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
@@ -179,8 +178,8 @@ class App extends Component {
             </header>
             <p className="App-intro">{this.state.data}</p>
           </div> 
-           </Route>
-           <Route exact path="/pagetwo">
+          </Route>
+          <Route exact path="/pagetwo">
           <div className="App">
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
@@ -188,9 +187,9 @@ class App extends Component {
             </header>
             <p className="App-intro">{this.state.data}</p>
           </div> 
-           </Route>
-        
-    </Switch></Router>
+          </Route>
+      </Switch></Router>
+    </div>
     )}
 }
 

@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.header-logo{
+  height: 100px;
+  width: 100px;
+  margin: 12px;
+}
+
+.lato-header {
+  margin-left: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 24pt;
+}
+
+.myheader { 
+  background-color: #1b2c4a;
+}
+
+.plot-map { 
+  margin-top: 40px;
+}
+
+.drawer-button {
+  font-size: 13pt;
+  font-family: 'Lato', sans-serif;
+}
+
+.drawer-label {
+  font-size: 26pt;
+  font-family: 'Lato', sans-serif;
+}
+
+.mybutton-spacer {
+  padding-top: 8px
+}
